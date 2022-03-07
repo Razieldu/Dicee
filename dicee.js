@@ -13,7 +13,7 @@ var randomsrc2="images/dice"+randomnumber2+".png";
 document.querySelector("img.img2").setAttribute("src",randomsrc2);
 //who win
 if (randomnumber1===randomnumber2){
-   document.querySelector("h1").innerHTML="平手";
+   document.querySelector("h1").innerHTML="😀平局😀";
 }
 else if(randomnumber1>randomnumber2){
     document.querySelector("h1").innerHTML="💪玩家1獲勝";
